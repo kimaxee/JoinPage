@@ -12,7 +12,7 @@ let birthDay;
 
 function checkId(id) {
     id = joinId.value;
-    if (id.length <= 4) {
+    if (id.length < 4) {
         alert("아이디를 4자이상 입력하세요.")
         return false;
     }
@@ -28,7 +28,7 @@ function checkId(id) {
 }
 function checkPw(pw) {
     pw = joinPw.value;
-    if (pw.length <= 8) {
+    if (pw.length < 8) {
         alert("비밀번호를 8자이상 입력하세요.")
         return false;
     }
