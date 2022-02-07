@@ -14,6 +14,7 @@ function checkId(id) {
     id = joinId.value;
     if (id.length <= 4) {
         alert("아이디를 4자이상 입력하세요.")
+        return false;
     }
 
     if (id.length >= 20) {
@@ -29,6 +30,7 @@ function checkPw(pw) {
     pw = joinPw.value;
     if (pw.length <= 8) {
         alert("비밀번호를 8자이상 입력하세요.")
+        return false;
     }
 
     if (pw.length >= 20) {
