@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#join_title {
+    background-color: lightgrey;
+    margin: auto;
+    width: 500px; height: 900px;
+    border: white;
+    border-radius: 5px;
+}
+
+li {
+    display: flex;
+    margin-left: 100px;
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+a {
+    color: red;
+    font-style: italic;
+}
+
+input{
+    width: 300px; height: 40px;
+    font-size: 20px;
+    border-color: white; border-width: 1px; border-radius: 3px;
+}
+
+#birth {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 300px; height: 40px;
+    
+}
+    select {
+        width: 90px; height: 40px;
+        font-size: 15px;
+        border-color: white; border-width: 1px; border-radius: 3px;
+        text-align: center;
+    }
+    span {
+        margin: auto;
+        width: 30px;
+        font-size: 15px;
+    }
+
+#join_phone_num1 {
+    width: 70px; height: 40px;
+    text-align: center;
+}
+#join_phone_num2 {
+    width: 90px; height: 40px;
+    text-align: center;
+}
+#join_phone_num3 {
+    width: 90px; height: 40px;
+    text-align: center;
+}
+
+#join_button {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 300px; height: 40px;    
+}
+    #join_complete {
+        margin-top: 50px;
+        width: 100px; height: 40px;
+        font-style:white;
+        color: white; background-color: dodgerblue;
+    }      
+    #join_cancel {
+        margin-top: 50px;
+        width: 100px; height: 40px;
+    }
